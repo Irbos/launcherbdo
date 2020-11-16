@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gQ4VkI2OOCQ0xnqu+X+QSVXYTaFK71dd2Yi/9b0jcudFN+A20PO1AAE5BXo8rr54KodaXo8FU0fjKL9sd7iWww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Irbos\\source\\repos\\LauncherBDO\\LauncherBDO\\LauncherBDO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Irbos\\.nuget\\packages\\hardcodet.notifyicon.wpf.netcore\\1.0.14\\hardcodet.notifyicon.wpf.netcore.1.0.14.nupkg.sha512",
+    "C:\\Users\\Irbos\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\Irbos\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
