@@ -34,6 +34,7 @@ namespace LauncherBDO
         public MainWindow()
         {
             InitializeComponent();
+	    CheckServerStatus();
             DiscordChannelBtn.Click += (sender, e) => { Process.Start("explorer.exe", "https://discord.gg/sKNHsWawsJ"); }; //open discord group
             CloseSecondWindow.Click += (sender, e) => { foreach (Window w in App.Current.Windows) w.Close(); }; //close window
             MinimizeSecondWindow.Click += (sender, e) => { this.WindowState = WindowState.Minimized; if (WindowState == WindowState.Minimized) Hide(); else prevState = WindowState; var balloon = new WelcomeTrey(); tb.ShowCustomBalloon(balloon, PopupAnimation.Slide, 12000);
@@ -43,9 +44,7 @@ namespace LauncherBDO
         /// <summary>
         /// this checked server status (he check when the program starts)
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        public void CheckServerStatus(object sender, EventArgs e)
+        public void CheckServerStatus()
         {
             string host = "127.0.0.1"; //change server ip
             int port = 8889; //change server port
