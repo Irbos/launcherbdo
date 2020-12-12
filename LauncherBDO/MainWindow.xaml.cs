@@ -34,7 +34,7 @@ namespace LauncherBDO
         public MainWindow()
         {
             InitializeComponent();
-            DiscordChannelBtn.Click += (sender, e) => { Process.Start("explorer.exe", "https://discord.gg/U8ptD2fQ"); }; //open discord group
+            DiscordChannelBtn.Click += (sender, e) => { Process.Start("explorer.exe", "https://discord.gg/sKNHsWawsJ"); }; //open discord group
             CloseSecondWindow.Click += (sender, e) => { foreach (Window w in App.Current.Windows) w.Close(); }; //close window
             MinimizeSecondWindow.Click += (sender, e) => { this.WindowState = WindowState.Minimized; if (WindowState == WindowState.Minimized) Hide(); else prevState = WindowState; var balloon = new WelcomeTrey(); tb.ShowCustomBalloon(balloon, PopupAnimation.Slide, 12000);
             };
